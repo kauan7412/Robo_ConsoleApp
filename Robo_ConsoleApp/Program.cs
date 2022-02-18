@@ -13,8 +13,6 @@ namespace Robo_ConsoleApp
             int areaY = Convert.ToInt32(Console.ReadLine());
             for (int a = 0; a < 2; a++)
             {
-
-
                 Console.WriteLine("indique a posiçao do robo x");
                 int posicaoRobox = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("indique a posiçao do robo y");
@@ -82,15 +80,9 @@ namespace Robo_ConsoleApp
                         else if (bussolarobo == 'S')
                         {
                             posicaoRoboy--;
-                        }
-
-                        
-                    }
-
-                    //processamento
-
+                        }                        
+                    }                 
                     //saida
-
                 }
                 if (areaX > posicaoRobox && areaY > posicaoRoboy && posicaoRobox >= 0 && posicaoRoboy >= 0)
                 {
